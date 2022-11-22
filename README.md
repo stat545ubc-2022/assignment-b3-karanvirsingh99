@@ -25,5 +25,5 @@ install_packages("ggsci")
 To run this shiny app, run the following command in R:
 
 ```{r}
-shiny::runGitHub("SPIAT_shiny", "karanvirsingh99")
+shiny::runGitHub("assignment-b3-karanvirsingh99", "stat545ubc-2022")
 ```
