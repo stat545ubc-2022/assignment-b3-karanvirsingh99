@@ -20,6 +20,16 @@ ihc_data <- read.csv("ihc_data.csv.gz")
 ##                        UI function                          ##
 #################################################################
 
+##------------------------------------------------------------------------------------------------------
+##  The three features in my app are                                                                                                
+##  1) a slider that lets you choose the minimimum neighborhood size 
+##    (useful in visualizing output with different thresholds)                                                                
+##  2) a slider that lets you chose the maximum distance between cells to be considered interacting 
+##    (useful in visualizing output with different thresholds)                            
+##  3) a dropdown image selector, that allows you to run the same settings on different sample 
+##    images and their corresponding data  
+##------------------------------------------------------------------------------------------------------
+
 ui <- fluidPage(titlePanel("SPIAT package demo"), #Title 
                 sidebarLayout(
                   #Sidebar Panel
@@ -135,8 +145,6 @@ output$neighborhood_map <- renderPlot({
     theme_void()+
     theme(legend.position="none")
 })
-
-output$neighborhood_composition <- renderPlot({plot(1,1)})
 
 }
 
