@@ -1,4 +1,4 @@
-# Shiny app with SPIAT demo
+# SPIAT Shiny App
 
 Note: For assignment B4, I further developed the shiny app I made for assignment b3.
 
