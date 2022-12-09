@@ -1,0 +1,13 @@
+name: SPIAT_shiny
+title: SPIAT_shiny
+username:
+account: karanvirsingh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7733562
+bundleId: 6555577
+url: https://karanvirsingh.shinyapps.io/SPIAT_shiny/
+when: 1669417015.15122
+lastSyncTime: 1669417015.15124
+asMultiple: FALSE
+asStatic: FALSE
