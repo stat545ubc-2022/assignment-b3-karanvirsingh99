@@ -8,11 +8,17 @@ This shiny app provides an interactive visualization of how changing these two p
 
 Furthermore, this app allows for uploading of mcIF data to detect neighborhoods and cluster similar neighborhoods based on their cell-type composition.
 
-Data should be uploaded as a .csv file. Every row should be a cell. It should contain columns Image, Class, Centroid_x, Centroid_y. Two sample files are included to test the capabilities of the app: one with 4 images (ihc_sample.csv.gz) and one with 500 images (BT_cell_level_n_500.gz.csv). Please note runtime for 500 images is about 10 minutes.
+Data should be uploaded as a .csv file. Every row should be a cell. It should contain columns Image, Class, Centroid_x, Centroid_y. Two sample files are included to test the capabilities of the app: one with 4 images (ihc_sample.csv.gz) and one with 500 images (BT_cell_level_n\_500.gz.csv). Please note runtime for 500 images is about 10 minutes.
 
 A dendrogram is produced showing the clustering of the neighborhoods based on Bray-Curtis distances calculated on the proportions of cells of different types in each neighborhoods. Bar plots showing how the composition of clusters changes with different cluster numbers are also produced.
 
+![](images/Screen%20Shot%202022-12-09%20at%203.06.08%20PM.png)
+
+![](images/Screen%20Shot%202022-12-09%20at%203.07.26%20PM.png)
+
 A table showing the average proportion by cell-type in each cluster is also produced.
+
+![](images/Screen%20Shot%202022-12-09%20at%203.08.05%20PM.png)
 
 Per-neighborhood data can be downloaded as a .csv file.
 
